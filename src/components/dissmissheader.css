@@ -1,0 +1,29 @@
+.dismissContainer{
+    height: 2.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: #2746d4;
+  
+    
+    
+}
+a{
+    color: inherit !important;
+}
+
+#thunder{
+    color: rgb(223, 94, 13);
+}
+.dismissText{
+    text-align: center;
+    width: 100%;
+  letter-spacing: 0.8px;
+}
+.dismissButton{
+   margin-right: 0.2rem;
+  color:aqua;
+  align-items: center;
+  
+  
+}

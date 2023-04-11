@@ -1,0 +1,135 @@
+/*.side-menu{
+
+    position: fixed;
+    background: white;
+    width: 300px;
+    height:100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.side-menu .search-controller input[typr=text]{
+    border: 0;
+    outline : black;
+    height: 35px;
+    border-radius: 5px;
+    display:block;
+    margin: 20px 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 40px;
+
+  
+
+}
+.side-menu .main-menu{
+    margin: 5px 0;
+}
+
+
+ .main-menu .menu-item{
+    color: bisque;
+    text-decoration: none;
+    font-size: 15px;
+    display: block;
+    font-weight: 600;
+ }
+
+ .menu-item .menu-icon{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+ }
+
+ .side-menu .main-menu .sub-menu{
+    margin-left: 20px;
+    border-left: 1px solid;
+    box-sizing: border-box;
+    padding-left: 20px;
+ }
+ .side-menu-footer{
+    width:100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 20px;
+
+
+ }*/
+
+
+ .sidebarContainer{
+    display: flex;
+    position: sticky !important;
+    top: 4rem !important;
+    align-self: flex-start ; 
+    z-index: 1 !important;
+}
+.sideFixed{
+    width: 3.25rem;
+    background-color: rgb(85, 85, 112) ;
+    color: rgb(73, 72, 72) ;
+    /* height: 100vh; */
+    animation: changeColor 5s infinite linear;  
+}
+@keyframes changeColor{
+    0%   {background-color: rgb(143, 199, 218);}
+    50%  {background-color: rgb(3, 154, 241);}
+    100% {background-color: rgb(143, 199, 218);}
+}
+.tag{
+    position: relative;
+    top: -10px;
+    font-size: 0.85rem;
+}
+.sideScroll{
+    width: 15rem;
+    height: 91vh;
+    border-right: 1px solid rgb(216, 216, 216);
+    padding: 0.8rem;
+}
+.scrollHeader{
+    font-size: 0.8rem;
+    color: grey;
+}
+.list{
+    padding: 0.3rem;
+    border:1px solid rgb(201, 195, 195);
+    border-radius: 0.75rem;
+    font-size: 0.8rem;
+    margin-left:10px;
+    gap:0.3rem
+}
+.listName{
+    margin-left: 2rem;
+    width: 7rem;
+}
+.listNumber{
+    padding: 2.5px;
+    background-color: rgba(244,226,242,255)    ;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 10px;
+}
+.listNameActive{
+    width: 0.5rem;
+    background-color: hotpink;
+}
+.listNumberActive{
+    background-color: hotpink;
+}
+.scrollList{
+    position: relative;
+}
+.scrollListTags
+{
+    position: absolute;
+    background-color: red;
+    width: 5rem;
+    height: 5rem;
+    top:0rem;
+    left: 13rem;
+}
